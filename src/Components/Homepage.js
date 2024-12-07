@@ -22,13 +22,13 @@ function Homepage() {
 function Introduction() {
   return (
     <div className="banner" id="home">
-      <div class="search-container">
-  <input type="text" class="search-input" placeholder="Search for products, brands and more..." />
-  <button class="search-button">Search</button>
+      <div className="search-container">
+  <input type="text" className="search-input" placeholder="Search for products, brands and more..." />
+  <button className="search-button">Search</button>
 </div>
 <div className="hyd">
 
-</div>
+</div>2
 <div className="hyda">
   
 </div>
@@ -43,7 +43,7 @@ function About() {
     <h1 className="card-text1">Location HYDERABAD</h1>
     <div className="card-container">
       <div className="card">
-        <img src={sr} alt="Location Image" />
+        <img src={sr} alt="Location" />
         <div className="card-info">
           <h3>Location: Sr Nagar</h3>
           <h3>Hostel List</h3>
@@ -52,7 +52,7 @@ function About() {
       </div>
 
       <div className="card">
-        <img src={am}alt="Location Image" />
+        <img src={am}alt="Location" />
         <div className="card-info">
           <h3>Location:Ameerpet</h3>
           <h3>Hostel List</h3>
@@ -61,7 +61,7 @@ function About() {
       </div>
 
       <div className="card" >
-        <img src={beg} alt="Location Image" />
+        <img src={beg} alt="Location" />
         <div className="card-info">
           <h3>Location: Begumpet</h3>
           <h3>Hostel List</h3>
@@ -70,7 +70,7 @@ function About() {
       </div>
 
       <div className="card">
-        <img src={pan} alt="Location Image" />
+        <img src={pan} alt="Location" />
         <div className="card-info">
           <h3>Location: Panjagutta</h3>
           <h3>Hostel List</h3>
@@ -171,21 +171,21 @@ const ContactUs = () => {
 const FooterBar = () => {
   return (
     <footer>
-  <div class="footer-container">
-    <div class="footer-section about">
+  <div className="footer-container">
+    <div className="footer-section about">
       <h3>About Us</h3>
       <p>We are committed to delivering the best service and customer satisfaction.</p>
     </div>
-    <div class="footer-section links">
+    <div className="footer-section links">
       <h3>Quick Links</h3>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact Us</a></li>
       </ul>
     </div>
-    <div class="footer-section contact">
+    <div className="footer-section contact">
       <h3>Contact Us</h3>
       <p>Email: contact@company.com</p>
       <p>Phone: +91 1234567890</p>
